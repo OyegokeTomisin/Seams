@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		876BB0B5FB5A0D116C1B34AE /* Pods_Seams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179B7B2F91BA30BAD0C175DB /* Pods_Seams.framework */; };
 		EB58CC4320FD2ADF00C25BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB58CC4220FD2ADF00C25BC2 /* AppDelegate.swift */; };
-		EB58CC4520FD2ADF00C25BC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB58CC4420FD2ADF00C25BC2 /* ViewController.swift */; };
 		EB58CC4820FD2ADF00C25BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB58CC4620FD2ADF00C25BC2 /* Main.storyboard */; };
 		EB58CC4A20FD2AE300C25BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB58CC4920FD2AE300C25BC2 /* Assets.xcassets */; };
 		EB58CC4D20FD2AE300C25BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB58CC4B20FD2AE300C25BC2 /* LaunchScreen.storyboard */; };
 		EB58CC5520FD2EBB00C25BC2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB58CC5420FD2EBB00C25BC2 /* Login.storyboard */; };
 		EB61A4EE20FD3B61002A049D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB61A4ED20FD3B61002A049D /* LoginViewController.swift */; };
+		EB80D3E52254DF2900A063EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBAA980D2254CFCC009598AD /* GoogleService-Info.plist */; };
+		EB80D3E82254E48D00A063EF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80D3E72254E48D00A063EF /* SignUpViewController.swift */; };
+		EBAA980C2254CD66009598AD /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA980B2254CD66009598AD /* AuthManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		179B7B2F91BA30BAD0C175DB /* Pods_Seams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7CA0EE11B3FA596C7C2496 /* Pods-Seams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seams.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seams/Pods-Seams.release.xcconfig"; sourceTree = "<group>"; };
 		EB58CC3F20FD2ADF00C25BC2 /* Seams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB58CC4220FD2ADF00C25BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB58CC4420FD2ADF00C25BC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB58CC4720FD2ADF00C25BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB58CC4920FD2AE300C25BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB58CC4C20FD2AE300C25BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB58CC4E20FD2AE300C25BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB58CC5420FD2EBB00C25BC2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		EB61A4ED20FD3B61002A049D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB80D3E72254E48D00A063EF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EBAA980B2254CD66009598AD /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		EBAA980D2254CFCC009598AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F89F9E117B25B95D98A965CA /* Pods-Seams.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seams.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seams/Pods-Seams.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876BB0B5FB5A0D116C1B34AE /* Pods_Seams.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,8 @@
 			children = (
 				EB58CC4120FD2ADF00C25BC2 /* Seams */,
 				EB58CC4020FD2ADF00C25BC2 /* Products */,
+				F6A56770CE4A7C4BC1F147B6 /* Pods */,
+				F3E0CC691A5DF66F56E3F805 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +69,67 @@
 		EB58CC4120FD2ADF00C25BC2 /* Seams */ = {
 			isa = PBXGroup;
 			children = (
-				EB61A4ED20FD3B61002A049D /* LoginViewController.swift */,
 				EB58CC4220FD2ADF00C25BC2 /* AppDelegate.swift */,
-				EB58CC5420FD2EBB00C25BC2 /* Login.storyboard */,
-				EB58CC4420FD2ADF00C25BC2 /* ViewController.swift */,
-				EB58CC4620FD2ADF00C25BC2 /* Main.storyboard */,
-				EB58CC4920FD2AE300C25BC2 /* Assets.xcassets */,
-				EB58CC4B20FD2AE300C25BC2 /* LaunchScreen.storyboard */,
-				EB58CC4E20FD2AE300C25BC2 /* Info.plist */,
+				EB80D3E92254E63200A063EF /* Storyboard */,
+				EB80D3E62254E46A00A063EF /* Auth */,
+				EBAA980F2254D288009598AD /* Support FIles */,
 			);
 			path = Seams;
+			sourceTree = "<group>";
+		};
+		EB80D3E62254E46A00A063EF /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA980B2254CD66009598AD /* AuthManager.swift */,
+				EB80D3EA2254E6C000A063EF /* Controller */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		EB80D3E92254E63200A063EF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EB58CC4620FD2ADF00C25BC2 /* Main.storyboard */,
+				EB58CC5420FD2EBB00C25BC2 /* Login.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EB80D3EA2254E6C000A063EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB61A4ED20FD3B61002A049D /* LoginViewController.swift */,
+				EB80D3E72254E48D00A063EF /* SignUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBAA980F2254D288009598AD /* Support FIles */ = {
+			isa = PBXGroup;
+			children = (
+				EB58CC4920FD2AE300C25BC2 /* Assets.xcassets */,
+				EB58CC4B20FD2AE300C25BC2 /* LaunchScreen.storyboard */,
+				EBAA980D2254CFCC009598AD /* GoogleService-Info.plist */,
+				EB58CC4E20FD2AE300C25BC2 /* Info.plist */,
+			);
+			path = "Support FIles";
+			sourceTree = "<group>";
+		};
+		F3E0CC691A5DF66F56E3F805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				179B7B2F91BA30BAD0C175DB /* Pods_Seams.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6A56770CE4A7C4BC1F147B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F89F9E117B25B95D98A965CA /* Pods-Seams.debug.xcconfig */,
+				AA7CA0EE11B3FA596C7C2496 /* Pods-Seams.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB58CC5120FD2AE300C25BC2 /* Build configuration list for PBXNativeTarget "Seams" */;
 			buildPhases = (
+				3CBFDA7269DDA49B37DC40DC /* [CP] Check Pods Manifest.lock */,
 				EB58CC3B20FD2ADF00C25BC2 /* Sources */,
 				EB58CC3C20FD2ADF00C25BC2 /* Frameworks */,
 				EB58CC3D20FD2ADF00C25BC2 /* Resources */,
+				B97CB9B4868220D33DAC1B74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -101,6 +165,7 @@
 				TargetAttributes = {
 					EB58CC3E20FD2ADF00C25BC2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -129,6 +194,7 @@
 			files = (
 				EB58CC5520FD2EBB00C25BC2 /* Login.storyboard in Resources */,
 				EB58CC4D20FD2AE300C25BC2 /* LaunchScreen.storyboard in Resources */,
+				EB80D3E52254DF2900A063EF /* GoogleService-Info.plist in Resources */,
 				EB58CC4A20FD2AE300C25BC2 /* Assets.xcassets in Resources */,
 				EB58CC4820FD2ADF00C25BC2 /* Main.storyboard in Resources */,
 			);
@@ -136,14 +202,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CBFDA7269DDA49B37DC40DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Seams-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B97CB9B4868220D33DAC1B74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Seams/Pods-Seams-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seams/Pods-Seams-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB58CC3B20FD2ADF00C25BC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EB61A4EE20FD3B61002A049D /* LoginViewController.swift in Sources */,
-				EB58CC4520FD2ADF00C25BC2 /* ViewController.swift in Sources */,
+				EBAA980C2254CD66009598AD /* AuthManager.swift in Sources */,
 				EB58CC4320FD2ADF00C25BC2 /* AppDelegate.swift in Sources */,
+				EB80D3E82254E48D00A063EF /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,38 +403,40 @@
 		};
 		EB58CC5220FD2AE300C25BC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89F9E117B25B95D98A965CA /* Pods-Seams.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9S6683TC8T;
-				INFOPLIST_FILE = Seams/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Seams/Support FIles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tomisin.Seams;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seams.Seams;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		EB58CC5320FD2AE300C25BC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7CA0EE11B3FA596C7C2496 /* Pods-Seams.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9S6683TC8T;
-				INFOPLIST_FILE = Seams/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Seams/Support FIles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tomisin.Seams;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seams.Seams;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
