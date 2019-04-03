@@ -1,0 +1,5 @@
+# Ignore folder named pods
+pods/
+Podfile
+Podfile.lock
+GoogleService-Info.plist
